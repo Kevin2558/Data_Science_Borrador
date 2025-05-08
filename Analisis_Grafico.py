@@ -93,8 +93,8 @@ survived_jovenes = df_jovenes[df_jovenes["Survived"] == 1]["Age"].dropna() # dro
                                                                            # valores nulos
 not_survived_jovenes = df_jovenes[df_jovenes["Survived"] == 0]["Age"].dropna()
 
-plt.hist(survived_jovenes,bins=5, alpha=0.7, label="Survived") # bins cantidad de puntos a usar
-                                                               # y alpha la transparencia del grafico 
+plt.hist(survived_jovenes,bins=5, alpha=0.7, label="Survived") # bins es la cantidad de elementos a tomar por barra
+                                                               # del histogram y alpha la transparencia del grafico 
 plt.hist(not_survived_jovenes,bins=5, alpha=0.7, label="Not Survived")
 plt.title("Comparación de edades [18-40] (Supervivencia)")
 plt.xlabel("Age")
