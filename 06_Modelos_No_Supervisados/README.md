@@ -1,4 +1,4 @@
-# 05 - Modelos No Supervisados
+# 06 - Modelos No Supervisados
 
 Técnicas de aprendizaje sin etiquetas, útiles para descubrir estructuras ocultas:
 
