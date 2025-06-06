@@ -1,4 +1,4 @@
-# 03 - Clasificación
+# 04 - Clasificación
 
 Modelos supervisados aplicados a problemas de clasificación:
 
