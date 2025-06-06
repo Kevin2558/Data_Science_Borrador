@@ -1,4 +1,4 @@
-# 06 - Evaluación de Modelos
+# 07 - Evaluación de Modelos
 
 Evaluación cuantitativa del rendimiento de los modelos de ML:
 
