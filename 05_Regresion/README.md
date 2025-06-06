@@ -1,4 +1,4 @@
-# 04 - Regresión
+# 05 - Regresión
 
 Modelos para predecir variables numéricas continuas:
 
