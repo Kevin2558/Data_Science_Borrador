@@ -1,4 +1,4 @@
-# 01 - Preprocesamiento
+# 02 - Preprocesamiento
 
 Aquí se encuentran técnicas para preparar los datos antes de entrenar modelos, incluyendo:
 
