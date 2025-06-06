@@ -1,4 +1,4 @@
-# 02 - Transformaciones
+# 03 - Transformaciones
 
 Transformaciones aplicadas a variables para facilitar el aprendizaje de modelos:
 
