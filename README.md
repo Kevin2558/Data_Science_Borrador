@@ -27,7 +27,6 @@ Este repositorio contiene ejercicios, notebooks y modelos desarrollados durante 
 - Seaborn, Matplotlib
 - Keras, TensorFlow
 - UMAP-learn, XGBoost
-- FastAPI (en desarrollo)
 - Jupyter Notebooks
 
 ## 🚀 Cómo comenzar
