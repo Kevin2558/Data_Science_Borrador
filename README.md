@@ -34,5 +34,5 @@ Este repositorio contiene ejercicios, notebooks y modelos desarrollados durante 
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd tu-repo
+   git clone https://github.com/Kevin2558/Data_Science.git
+   cd Data_Science
