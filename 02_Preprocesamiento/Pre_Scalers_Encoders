@@ -1,0 +1,79 @@
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import StandardScaler, RobustScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+
+# -----------------------------
+# 1. Crear dataset de ejemplo
+# -----------------------------
+# Tenemos variables numéricas (edad, ingreso) y una categórica (ciudad)
+data = pd.DataFrame({
+    'edad': [25, 32, 47, 51, 62],
+    'ingreso': [50000, 60000, 80000, 120000, 150000],
+    'ciudad': ['Santiago', 'Valparaíso', 'Santiago', 'Temuco', 'Temuco']
+})
+
+print("📌 Datos originales:")
+print(data)
+
+# -----------------------------
+# 2. Separar variables por tipo
+# -----------------------------
+numeric_features = ['edad', 'ingreso']
+categorical_features = ['ciudad']
+
+# -----------------------------
+# 3. Escaladores y codificador
+# -----------------------------
+
+# 🔹 StandardScaler:
+# Centra los datos (media = 0) y escala para que la desviación estándar sea 1.
+# Se usa cuando los datos están distribuidos normalmente (sin muchos outliers).
+standard_scaler = StandardScaler()
+
+# 🔹 RobustScaler:
+# Escala según la mediana y el rango intercuartil (IQR), lo que lo hace resistente a outliers.
+# Útil cuando hay valores extremos que pueden distorsionar el modelo.
+robust_scaler = RobustScaler()
+
+# 🔹 OneHotEncoder:
+# Convierte variables categóricas en columnas binarias (0/1).
+# Importante cuando los modelos no pueden manejar texto directamente.
+one_hot = OneHotEncoder(drop='first')  # elimina una categoría para evitar multicolinealidad
+
+# -----------------------------
+# 4. ColumnTransformer
+# -----------------------------
+# Combinamos los transformadores para aplicar:
+# - Escalado a variables numéricas
+# - One-hot encoding a variables categóricas
+
+# Opción A: StandardScaler
+preprocessor_std = ColumnTransformer(
+    transformers=[
+        ('num', standard_scaler, numeric_features),
+        ('cat', one_hot, categorical_features)
+    ])
+
+# Opción B: RobustScaler
+preprocessor_robust = ColumnTransformer(
+    transformers=[
+        ('num', robust_scaler, numeric_features),
+        ('cat', one_hot, categorical_features)
+    ])
+
+# -----------------------------
+# 5. Aplicar transformaciones
+# -----------------------------
+X_std = preprocessor_std.fit_transform(data)
+X_robust = preprocessor_robust.fit_transform(data)
+
+# -----------------------------
+# 6. Mostrar resultados
+# -----------------------------
+print("\n✅ Escalado con StandardScaler + OneHotEncoder:")
+print(pd.DataFrame(X_std.toarray() if hasattr(X_std, 'toarray') else X_std))
+
+print("\n✅ Escalado con RobustScaler + OneHotEncoder:")
+print(pd.DataFrame(X_robust.toarray() if hasattr(X_robust, 'toarray') else X_robust))
