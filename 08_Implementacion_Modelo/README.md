@@ -1,4 +1,4 @@
-# 11 - Implementación de Modelos
+# 08 - Implementación de Modelos
 
 Preparación de modelos entrenados para producción:
 
