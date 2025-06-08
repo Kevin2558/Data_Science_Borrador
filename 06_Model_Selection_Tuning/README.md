@@ -1,4 +1,4 @@
-# 09 - Selección y Ajuste de Modelos
+# 06 - Selección y Ajuste de Modelos
 
 Técnicas para optimizar el rendimiento de modelos mediante ajuste de hiperparámetros:
 
