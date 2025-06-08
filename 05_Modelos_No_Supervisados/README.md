@@ -3,9 +3,9 @@
 Técnicas de aprendizaje sin etiquetas, útiles para descubrir estructuras ocultas:
 
 - Clustering
-Algoritmos: K-means, DBSCAN, jerárquico
-Objetivo: Agrupar observaciones similares
-Ejemplo: Segmentación de clientes o regiones
+--Algoritmos: K-means, DBSCAN, jerárquico
+--Objetivo: Agrupar observaciones similares
+--Ejemplo: Segmentación de clientes o regiones
 
 - Reglas de Asociación
 Algoritmo: Apriori
