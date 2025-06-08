@@ -1,4 +1,4 @@
-# 10 - Deep Learning
+# 07 - Deep Learning
 
 Introducción práctica al uso de redes neuronales profundas:
 
