@@ -1,4 +1,4 @@
-# 12 - Proyecto Final
+# 09 - Proyecto Final
 
 Espacio destinado al proyecto final del curso, que integrará todas las etapas del flujo de trabajo de ciencia de datos:
 
