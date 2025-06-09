@@ -12,8 +12,8 @@ Técnicas de aprendizaje sin etiquetas, útiles para descubrir estructuras ocult
   - Objetivo: Descubrir reglas del tipo "si A entonces B"
   - Ejemplo: Análisis de canastas de compra
 
-- Topic Modeling
-  - Algoritmo: LDA (Latent Dirichlet Allocation)
+- Text Mining
+  - Algoritmos: LDA, NLP
   - Objetivo: Identificar temas latentes en un corpus de texto
   - Ejemplo: Análisis de opiniones o artículos de noticias
 
