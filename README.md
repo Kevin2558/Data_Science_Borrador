@@ -15,7 +15,8 @@ Este repositorio contiene ejercicios, notebooks y modelos desarrollados durante 
 | `06_Model_Selection_Tuning`     | GridSearchCV, validación cruzada, selección de hiperparámetros                      |
 | `07_Deep_Learning`              | Introducción a redes neuronales con Keras y TensorFlow                              |
 | `08_Implementacion_Modelo`      | Pipelines, serialización de modelos y preparación para despliegue                   |
-| `09_Proyecto_Final`             | Proyecto final integrador con aplicación de técnicas de ML a un caso real           |
+| `09_Tareas_Proyectos`           | Tareas realizadas en el curso y proyectos a desarrollar                             |
+| `10_Proyecto_Final`             | Proyecto final integrador con aplicación de técnicas de ML a un caso real           |
 
 ## 🛠️ Tecnologías utilizadas
 
