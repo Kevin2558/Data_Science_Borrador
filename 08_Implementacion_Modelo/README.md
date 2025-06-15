@@ -1,4 +1,4 @@
-# 08 - Implementación de Modelos
+# 08 - Implementación y Despliegue de Modelos
 
 Esta sección muestra cómo llevar un modelo de Machine Learning desde su entrenamiento hasta su implementación básica en producción.
 
