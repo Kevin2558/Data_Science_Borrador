@@ -19,20 +19,4 @@ Esta sección muestra cómo llevar un modelo de Machine Learning desde su entren
    - Integración con una API básica usando Flask.
    - Archivo: `api_modelo.py`
 
-## Requisitos
-
-```bash
-pip install scikit-learn pandas joblib flask
-```
-
-## Ejecutar la API
-
-```bash
-python api_modelo.py
-```
-
-Luego puedes hacer una petición POST a `http://localhost:5000/predict` con un JSON que contenga los features esperados.
-
----
-
 Este ejemplo está basado en el dataset de cáncer de mama (`sklearn.datasets.load_breast_cancer`) pero puede adaptarse a cualquier modelo entrenado con Scikit-learn.
