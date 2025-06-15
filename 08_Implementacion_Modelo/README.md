@@ -1,9 +1,38 @@
 # 08 - Implementación de Modelos
 
-Preparación de modelos entrenados para producción:
+Esta sección muestra cómo llevar un modelo de Machine Learning desde su entrenamiento hasta su implementación básica en producción.
 
-- Uso de `Pipeline` de Scikit-learn
-- Serialización con `joblib`
-- Carga y predicción sobre nuevos datos
+## Contenido
 
-Incluye una base para integrar el modelo a una API o servicio web.
+1. **Entrenamiento y Pipeline**
+   - Uso de `Pipeline` de Scikit-learn para encapsular preprocesamiento y modelo.
+   - Archivo: `entrenamiento_pipeline.ipynb`
+
+2. **Serialización del Modelo**
+   - Guardado del modelo con `joblib` para facilitar su reutilización.
+
+3. **Predicción con Nuevos Datos**
+   - Ejemplo de cómo cargar el modelo y aplicarlo sobre datos nuevos.
+   - Archivo: `prediccion_nuevos_datos.ipynb`
+
+4. **Exposición como API REST**
+   - Integración con una API básica usando Flask.
+   - Archivo: `api_modelo.py`
+
+## Requisitos
+
+```bash
+pip install scikit-learn pandas joblib flask
+```
+
+## Ejecutar la API
+
+```bash
+python api_modelo.py
+```
+
+Luego puedes hacer una petición POST a `http://localhost:5000/predict` con un JSON que contenga los features esperados.
+
+---
+
+Este ejemplo está basado en el dataset de cáncer de mama (`sklearn.datasets.load_breast_cancer`) pero puede adaptarse a cualquier modelo entrenado con Scikit-learn.
