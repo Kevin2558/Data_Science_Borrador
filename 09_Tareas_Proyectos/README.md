@@ -30,6 +30,7 @@ El proceso seguido en este proyecto incluyó las siguientes etapas:
     * Regresión Logística
     * Support Vector Machine
     * K Nearest Neighbors
+
 Los modelos se entrenaron tanto en los datos originales como en los datos transformados por PCA.
 5.  **Evaluación:** El rendimiento de los modelos fue evaluado utilizando métricas comunes de clasificación: Accuracy, Precision, Recall y F1-Score.
 
