@@ -6,9 +6,9 @@ Este proyecto busca desarrollar un modelo de clasficación que sea capaz de iden
 
 ## Dataset
 
-* **Nombre del Dataset:** [Nombre completo del dataset, ej., "Fashion MNIST", "Human Activity Recognition with Smartphones"]
-* **Fuente:** [Enlace directo a la fuente del dataset, ej., Kaggle, UCI Machine Learning Repository]
-* **Descripción Breve:** [Una o dos oraciones que describan el contenido del dataset (número de filas, columnas, tipo de datos, qué representan las características y la variable objetivo).]
+* **Nombre del Dataset:** Sloan Digital Sky Survey
+* **Fuente:** [Enlace de Kaggle al dataset](https://www.kaggle.com/code/farazrahman/predicting-star-galaxy-quasar-with-svm)
+* **Descripción Breve:** Este dataset consiste en una colección de 10.000 observaciones del espacio tomadas por la Sloan Digital Sky Survey. Cada observación está descrita por 17 características y una variables objetivo la cual identifica la observación como una estrella, una galaxia o un quásar.
 
 ## Objetivos del Proyecto
 
