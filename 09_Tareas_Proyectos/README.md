@@ -28,9 +28,9 @@ El proceso seguido en este proyecto incluyó las siguientes etapas:
 3.  **Reducción de Dimensionalidad:** Se aplicó PCA para reducir la dimensionalidad a un número de componentes que explicara una alta proporción de la varianza total (ej., 95%). Esto también se utilizó para visualizar los datos en 2D.
 4.  **Modelado:** Se entrenaron los siguientes modelos:
     * Regresión Logística
-    * Support Vector Machine (SVM)
-    * Random Forest Classifier
-    Los modelos se entrenaron tanto en los datos originales como en los datos transformados por PCA.
+    * Support Vector Machine
+    * K Nearest Neighbors
+Los modelos se entrenaron tanto en los datos originales como en los datos transformados por PCA.
 5.  **Evaluación:** El rendimiento de los modelos fue evaluado utilizando métricas comunes de clasificación: Accuracy, Precision, Recall y F1-Score.
 
 ## Resultados y Conclusiones Clave
