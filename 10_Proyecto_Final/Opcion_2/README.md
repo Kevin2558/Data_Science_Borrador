@@ -6,7 +6,7 @@ Este proyecto busca desarrollar un modelo de clasficación que sea capaz de iden
 
 ## Dataset
 
-* **Nombre del Dataset:** Sloan Digital Sky Survey
+* **Nombre del Dataset:** SDSS Data (Star/Galaxy/QSO Classification)
 * **Fuente:** [Enlace de Kaggle al dataset](https://www.kaggle.com/code/farazrahman/predicting-star-galaxy-quasar-with-svm)
 * **Descripción Breve:** Este dataset consiste en una colección de 10.000 observaciones del espacio tomadas por la Sloan Digital Sky Survey. Cada observación está descrita por 17 características y una variable objetivo la cual identifica la observación como una estrella, una galaxia o un quásar.
 
