@@ -52,5 +52,5 @@ El proceso seguido en este proyecto incluyó las siguientes etapas:
 ## Autor
 
 * **Kevin Ortiz**
-* [Tu Perfil de GitHub](https://github.com/Kevin2558)
-* [Tu Perfil de LinkedIn](https://www.linkedin.com/in/tu-perfil-linkedin/)
+* [GitHub](https://github.com/Kevin2558)
+* [LinkedIn](https://www.linkedin.com/in/tu-perfil-linkedin/)
