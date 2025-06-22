@@ -48,5 +48,6 @@ El objetivo principal es construir un modelo que prediga la trayectoria de un hu
 
 - Es necesario contar con una cuenta en Copernicus y aceptar la licencia del dataset antes de descargar.
 - Se recomienda ejecutar los experimentos en entorno Python 3.10 o superior.
+- No es muy viable esta opcion awkdñawd
 
 ---
