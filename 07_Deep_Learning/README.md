@@ -3,6 +3,8 @@
 Introducción práctica al uso de redes neuronales profundas:
 
 - Perceptrón multicapa (MLP)
+- Redes Neuronales
+- Redes Neuronales Convolucionales
 - Keras y TensorFlow como frameworks
 - Entrenamiento, evaluación y predicción
 
