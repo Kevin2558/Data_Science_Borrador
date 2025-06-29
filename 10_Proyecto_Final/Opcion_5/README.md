@@ -52,7 +52,7 @@ El proceso seguido en este proyecto incluyó las siguientes etapas:
 ## Autor
 
 * **Kevin Ortiz**
-* [Github] (https://github.com/Kevin2558/Portafolio_DataScience)
-* [LinkedIn] (https://www.linkedin.com/in/kevin-ortiz-collao-16376a275/)
+* [Github](https://github.com/Kevin2558/Portafolio_DataScience)
+* [LinkedIn](https://www.linkedin.com/in/kevin-ortiz-collao-16376a275/)
 
 ---
